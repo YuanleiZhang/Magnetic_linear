@@ -96,7 +96,9 @@ An example is given in the folder '/Example_porphyry/test_porphyry/' .
 
 ## 3.Citation
 Use the following citations to reference our codes:
+
 [![DOI](https://zenodo.org/badge/385091944.svg)](https://zenodo.org/badge/latestdoi/385091944)
+
 ## 4.Notice
 This version of the code is limited to calculate the analytical solution of polyhedral bodies with linear and constant-order magnetization contrsat. Higher-order implementations are theoretically feasible, which are introduced in our paper. Welcome to optimize our algorithm!
 
