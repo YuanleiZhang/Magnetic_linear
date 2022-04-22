@@ -46,7 +46,7 @@ void tet_mesh::read_mesh(string grid_name)
 	cout << "Reading mesh with tetrahedal elements ....\n";
 	nodes_in(node_stream);
 	tets_in(ele_stream);
-	cout << "run here now"<<endl;
+	//cout << "run here now"<<endl;
 	return;
 }
 

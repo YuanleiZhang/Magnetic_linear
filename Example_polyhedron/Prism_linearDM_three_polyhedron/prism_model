@@ -1,0 +1,95 @@
+# Comments are prefixed by character '#'
+
+3 #First line, number of polyhedrons
+
+#The 1th target body (numbered from 0), which has 8 nodes and 6 facets 
+0	4	4 
+
+# Nodes, numbered from zero
+# <index> <x> <y> <z>
+0	5	5	5 # 1st node, at (0,0,0)
+1	10	5	20 
+2	5	5	20 
+3	5	15	20
+
+
+# Facets, numbered from zero
+# <number> <number of corners> <corner 1> <corner 2> ... <corner #>
+0	3	0	1	2# 1st facet, contains 4 corners (0-1-2-3)
+1	3	0	1	3
+2	3	0	2	3
+3	3	1	2	3
+
+# Density/magnetic contrast
+50
+1	3	2
+0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	
+
+#Direction of magnetization intensity
+1	2	1
+
+
+#The 2th target body (numbered from 0), which has 8 nodes and 6 facets 
+1	4	4 
+
+# Nodes, numbered from zero
+# <index> <x> <y> <z>
+0	10	15	20 # 1st node, at (0,0,0)
+1	10	5	5 
+2	10	15	5
+3	5	15	5
+
+
+# Facets, numbered from zero
+# <number> <number of corners> <corner 1> <corner 2> ... <corner #>
+0	3	0	1	2# 1st facet, contains 4 corners (0-1-2-3)
+1	3	0	1	3
+2	3	0	2	3
+3	3	1	2	3
+
+# Density/magnetic contrast
+50
+1	3	2
+0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	
+
+#Direction of magnetization intensity
+1	2	1
+
+
+#The 3th target body (numbered from 0), which has 8 nodes and 6 facets 
+2	6	8
+
+# Nodes, numbered from zero
+# <index> <x> <y> <z>
+0	10	5	20 # 1st node, at (0,0,0)
+1	10	15	20
+2	5	15	20
+3	10	5	5
+4	5	5	5
+5	5	15	5
+
+
+# Facets, numbered from zero
+# <number> <number of corners> <corner 1> <corner 2> ... <corner #>
+0	3	0	1	2# 1st facet, contains 4 corners (0-1-2-3)
+1	3	0	1	3
+2	3	0	3	4
+3	3	1	2	5
+4	3	2	4	5
+5	3	3	4	5
+6	3	1	3	5
+7	3	0	2	4
+
+# Density/magnetic contrast
+50
+1	3	2
+0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	
+
+#Direction of magnetization intensity
+1	2	1
+
+
+

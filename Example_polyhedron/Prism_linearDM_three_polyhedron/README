@@ -1,0 +1,10 @@
+
+
+
+# caulate the magnetic fields of polyhedral
+../../MagPly prism_model prism_site magnetic_linear_fields_out_prism_site m_b
+
+# caulate the magnetic gradient tensor of polyhedral
+../../MagPly prism_model prism_site magnetic_linear_tensor_out_prism_site m_t
+
+

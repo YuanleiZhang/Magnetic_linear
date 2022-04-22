@@ -49,7 +49,7 @@ void Modeling::read_model(const char *name)
 				continue;
 			std::istringstream iss(line);
 			iss >> lab;
-			// cout<<"lab="<<lab<<",i="<<i<<endl;
+			cout<<"lab="<<lab<<",i="<<i<<endl;
 			assert(lab == i);
 			iss >> po[i].node_number; //total number of vertices in the polyhedral
 			po[i].node.resize(po[i].node_number);

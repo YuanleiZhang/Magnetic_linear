@@ -1,0 +1,1 @@
+这个程序在使用时需要安装一个插件 vedo（https://vedo.embl.es/）
