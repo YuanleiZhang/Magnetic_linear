@@ -78,7 +78,7 @@ The configuration file contains information about mesh files and density contras
 <magnetized direction of each region>
 ...      # next region
 *********************************************************************************
-
+```
 The polynomial coefficients given in the file as
 ```
 a000
